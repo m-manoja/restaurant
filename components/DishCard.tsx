@@ -39,7 +39,7 @@ const DishCard: React.FC<DishCardProps> = ({ dish }) => {
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <h3 className="font-serif text-xl font-bold text-brand-dark">{dish.name}</h3>
-          <span className="text-brand-gold font-bold text-lg">${dish.price}</span>
+          <span className="text-brand-gold font-bold text-lg">Rs. {dish.price}</span>
         </div>
         
         <p className="text-gray-600 text-sm mb-4 flex-grow">{dish.description}</p>

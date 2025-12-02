@@ -18,12 +18,12 @@ const Contact: React.FC = () => {
               <div className="bg-brand-cream p-8 rounded-lg text-center">
                 <MapPin className="mx-auto text-brand-gold mb-4" size={32} />
                 <h3 className="font-bold text-lg mb-2">Location</h3>
-                <p className="text-gray-600">ECR Service Lane<br/>Neelankarai, Chennai</p>
+                <p className="text-gray-600">Kankesanthurai Road<br/>Jaffna, Sri Lanka</p>
               </div>
               <div className="bg-brand-cream p-8 rounded-lg text-center">
                 <Phone className="mx-auto text-brand-gold mb-4" size={32} />
                 <h3 className="font-bold text-lg mb-2">Phone</h3>
-                <p className="text-gray-600">+91 98840 12345<br/>Mon-Sun 12pm - 10pm</p>
+                <p className="text-gray-600">+94 77 123 4567<br/>Mon-Sun 12pm - 10pm</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
           {/* Map */}
           <div className="h-[500px] bg-gray-200 rounded-lg overflow-hidden relative">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.270155555664!2d80.259891!3d12.953942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8e06b975c3%3A0x2c5f1f2d0c0a7e5e!2sNeelankarai%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.3002301825527!2d80.014367!3d9.661498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe548138b222af%3A0x2a5a45fc5517fcd0!2sJaffna!5e0!3m2!1sen!2slk!4v1700000000000" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

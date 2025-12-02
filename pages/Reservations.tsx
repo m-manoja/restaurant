@@ -61,7 +61,7 @@ const Reservations: React.FC = () => {
           <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Book a Table</span>
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mt-2 mb-4">Book Your Coastal Table</h1>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Secure your seat for the freshest Tamil seafood in Chennai. From date nights to family feasts, we’ll have the catch ready.
+            Secure your seat for the freshest Tamil seafood in Jaffna. From date nights to family feasts, we’ll have the catch ready.
           </p>
         </div>
 
@@ -231,8 +231,8 @@ const Reservations: React.FC = () => {
                 <p className="text-gray-600 text-sm mb-4">
                   For family-style feasts, corporate lunches, or rituals, call us directly.
                 </p>
-                <a href="tel:+919884012345" className="text-brand-dark font-bold text-lg hover:text-brand-gold transition-colors">
-                +91 98840 12345
+                <a href="tel:+94771234567" className="text-brand-dark font-bold text-lg hover:text-brand-gold transition-colors">
+                +94 77 123 4567
                 </a>
               </div>
 

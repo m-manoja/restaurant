@@ -50,7 +50,7 @@ const About: React.FC = () => {
             
             <div className="space-y-5 text-gray-600 leading-relaxed text-sm md:text-base">
               <p>
-                Raajeshwariy SeaFood Restaurant began as a beachside mess in Nagapattinam, serving the morning catch to dock workers and families. Today in the city, we still cook the same heirloom recipes, slow-toasting spices and finishing every dish with the aroma of coconut and curry leaves.
+                Raajeshwariy SeaFood Restaurant began as a beachside mess in Point Pedro, serving the morning catch to dock workers and families. Today in Jaffna, we still cook the same heirloom recipes, slow-toasting spices and finishing every dish with the aroma of coconut and curry leaves.
               </p>
               <p>
                 Our kitchen waits for the boats to come in before finalizing the menu. From crab pepper roast to tamarind-rich karuvadu curry, we celebrate the depth of Tamil coastal cuisine with uncompromising freshness.
@@ -148,8 +148,8 @@ const About: React.FC = () => {
                     </div>
                     <div>
                         <h3 className="font-serif text-lg font-bold mb-1">Location</h3>
-                        <p className="text-gray-400 text-sm">ECR Service Lane</p>
-                        <p className="text-gray-400 text-sm">Neelankarai, Chennai</p>
+                        <p className="text-gray-400 text-sm">Kankesanthurai Road</p>
+                        <p className="text-gray-400 text-sm">Jaffna, Sri Lanka</p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-4">

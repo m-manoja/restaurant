@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold text-brand-gold mb-6">Raajeshwariy SeaFood</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Fresh catch cooked with Tamil coastal soul. Family-run, spice-forward, and proudly rooted in the bay.
+              Fresh catch cooked with Tamil coastal soul. Family-run, spice-forward, and proudly rooted in Jaffna bay.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-gold transition-colors text-white">
@@ -45,11 +45,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="text-brand-gold shrink-0 mt-1" size={18} />
-                <span>ECR Service Lane,<br />Neelankarai, Chennai</span>
+                <span>Kankesanthurai Road,<br />Jaffna, Sri Lanka</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="text-brand-gold shrink-0" size={18} />
-                <span>+91 98840 12345</span>
+                <span>+94 77 123 4567</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="text-brand-gold shrink-0" size={18} />

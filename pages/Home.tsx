@@ -87,7 +87,7 @@ const Home: React.FC = () => {
                 <Users className="text-brand-gold" size={32} />
               </div>
               <h3 className="font-serif text-2xl font-bold mb-4">Family-Owned</h3>
-              <p className="text-gray-600">Welcoming hospitality from a Chennai family-run kitchen—no frills, just honest coastal food.</p>
+              <p className="text-gray-600">Welcoming hospitality from a Jaffna family-run kitchen—no frills, just honest coastal food.</p>
             </div>
           </div>
         </div>
@@ -134,8 +134,8 @@ const Home: React.FC = () => {
                 A 5-course journey of seer fish, king prawns, and coconut-rich gravies, paired with fragrant appams and pickled shallots.
               </p>
               <div className="flex items-center gap-4 mb-8">
-                <span className="text-3xl font-serif text-brand-gold">$78</span>
-                <span className="text-gray-400">per person / mocktail pairing +$18</span>
+                <span className="text-3xl font-serif text-brand-gold">Rs. 2499</span>
+                <span className="text-gray-400">per person / mocktail pairing +Rs. 450</span>
               </div>
               <NavLink to="/reservations" className="bg-white text-brand-dark px-8 py-3 rounded font-bold uppercase hover:bg-brand-gold hover:text-white transition-colors">
                 Reserve Now

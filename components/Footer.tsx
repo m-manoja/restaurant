@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
           
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl font-bold text-brand-gold mb-6">Savoria</h3>
+            <h3 className="font-serif text-2xl font-bold text-brand-gold mb-6">Raajeshwariy SeaFood</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Experience the finest authentic cuisine in a warm, welcoming atmosphere. Tradition meets innovation on every plate.
+              Fresh catch cooked with Tamil coastal soul. Family-run, spice-forward, and proudly rooted in the bay.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-gold transition-colors text-white">
@@ -45,15 +45,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="text-brand-gold shrink-0 mt-1" size={18} />
-                <span>123 Culinary Avenue,<br />Food District, NY 10012</span>
+                <span>ECR Service Lane,<br />Neelankarai, Chennai</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="text-brand-gold shrink-0" size={18} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 98840 12345</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="text-brand-gold shrink-0" size={18} />
-                <span>reservations@savoria.com</span>
+                <span>table@raajeshwariyseafood.com</span>
               </li>
             </ul>
           </div>
@@ -64,22 +64,22 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex justify-between border-b border-gray-800 pb-2">
                 <span>Mon - Thu</span>
-                <span>11:00 AM - 10:00 PM</span>
+                <span>12:00 PM - 10:00 PM</span>
               </li>
               <li className="flex justify-between border-b border-gray-800 pb-2">
                 <span>Fri - Sat</span>
-                <span>11:00 AM - 11:00 PM</span>
+                <span>12:00 PM - 11:00 PM</span>
               </li>
               <li className="flex justify-between pb-2">
                 <span>Sunday</span>
-                <span>10:00 AM - 9:30 PM</span>
+                <span>12:00 PM - 9:30 PM</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Savoria Restaurant. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Raajeshwariy SeaFood Restaurant. All rights reserved.</p>
         </div>
       </div>
     </footer>

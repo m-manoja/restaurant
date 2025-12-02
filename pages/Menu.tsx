@@ -21,9 +21,9 @@ const Menu: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="font-serif text-5xl font-bold text-brand-dark mb-4">Our Menu</h1>
+          <h1 className="font-serif text-5xl font-bold text-brand-dark mb-4">SeaFood by Raajeshwariy</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Explore our curated selection of dishes, crafted with passion using the finest ingredients.
+            From anchovy fry to king prawn moilee, every plate is cooked the day the boats return to shore.
           </p>
         </div>
 

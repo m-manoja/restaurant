@@ -8,6 +8,7 @@ import Menu from './pages/Menu';
 import Reservations from './pages/Reservations';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Offers from './pages/Offers';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/reservations" element={<Reservations />} />
+            <Route path="/offers" element={<Offers />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

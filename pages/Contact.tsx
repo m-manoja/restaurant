@@ -6,10 +6,10 @@ const Contact: React.FC = () => {
     <div className="pt-24 pb-20 bg-white">
       <div className="container mx-auto px-4">
         
-        <div className="text-center mb-16">
-          <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Get in Touch</span>
-          <h1 className="font-serif text-5xl font-bold text-brand-dark mt-2">Contact Us</h1>
-        </div>
+          <div className="text-center mb-16">
+            <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Get in Touch</span>
+            <h1 className="font-serif text-5xl font-bold text-brand-dark mt-2">Reach Raajeshwariy</h1>
+          </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Info & Form */}
@@ -18,12 +18,12 @@ const Contact: React.FC = () => {
               <div className="bg-brand-cream p-8 rounded-lg text-center">
                 <MapPin className="mx-auto text-brand-gold mb-4" size={32} />
                 <h3 className="font-bold text-lg mb-2">Location</h3>
-                <p className="text-gray-600">123 Culinary Avenue<br/>Food District, NY 10012</p>
+                <p className="text-gray-600">ECR Service Lane<br/>Neelankarai, Chennai</p>
               </div>
               <div className="bg-brand-cream p-8 rounded-lg text-center">
                 <Phone className="mx-auto text-brand-gold mb-4" size={32} />
                 <h3 className="font-bold text-lg mb-2">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567<br/>Mon-Sun 10am - 10pm</p>
+                <p className="text-gray-600">+91 98840 12345<br/>Mon-Sun 12pm - 10pm</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
           {/* Map */}
           <div className="h-[500px] bg-gray-200 rounded-lg overflow-hidden relative">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.270155555664!2d80.259891!3d12.953942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8e06b975c3%3A0x2c5f1f2d0c0a7e5e!2sNeelankarai%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

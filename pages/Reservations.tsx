@@ -59,9 +59,9 @@ const Reservations: React.FC = () => {
         {/* Centered Page Header */}
         <div className="text-center mb-12">
           <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Book a Table</span>
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mt-2 mb-4">Make a Reservation</h1>
+          <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-dark mt-2 mb-4">Book Your Coastal Table</h1>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Reserve your spot for an unforgettable dining experience. Whether it's a romantic dinner or a family celebration, we are ready to serve you.
+            Secure your seat for the freshest Tamil seafood in Chennai. From date nights to family feasts, we’ll have the catch ready.
           </p>
         </div>
 
@@ -228,13 +228,13 @@ const Reservations: React.FC = () => {
                  </div>
                  <h3 className="font-serif text-xl font-bold">Contact</h3>
               </div>
-              <p className="text-gray-600 text-sm mb-4">
-                Have a large group or special event? Give us a call directly.
-              </p>
-              <a href="tel:+15551234567" className="text-brand-dark font-bold text-lg hover:text-brand-gold transition-colors">
-                +1 (555) 123-4567
-              </a>
-            </div>
+                <p className="text-gray-600 text-sm mb-4">
+                  For family-style feasts, corporate lunches, or rituals, call us directly.
+                </p>
+                <a href="tel:+919884012345" className="text-brand-dark font-bold text-lg hover:text-brand-gold transition-colors">
+                +91 98840 12345
+                </a>
+              </div>
 
             {/* Policy Card */}
             <div className="bg-brand-dark text-white p-6 rounded-lg shadow-md">
@@ -247,8 +247,8 @@ const Reservations: React.FC = () => {
               <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
                 <li>Reservations are held for 15 minutes.</li>
                 <li>For groups larger than 12, please call us.</li>
-                <li>Dietary requests can be accommodated.</li>
-                <li>Cancellation fee applies within 24 hours.</li>
+                <li>We honor seafood allergies—let us know in advance.</li>
+                <li>24-hour notice for cancellations, please.</li>
               </ul>
             </div>
 

@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ChevronRight, Award, Leaf, Users, Star } from 'lucide-react';
-import { MENU_ITEMS, REVIEWS } from '../constants';
+import { ChevronRight, Award, Leaf, Users, Star, Tag, ArrowLeft, ArrowRight } from 'lucide-react';
+import { MENU_ITEMS, REVIEWS, OFFERS } from '../constants';
 import DishCard from '../components/DishCard';
 
 const Home: React.FC = () => {
   const featuredDishes = MENU_ITEMS.filter(d => d.isChefSpecial || d.isPopular).slice(0, 3);
+  const [offerIndex, setOfferIndex] = useState(0);
+
+  const handleNext = () => setOfferIndex((offerIndex + 1) % OFFERS.length);
+  const handlePrev = () => setOfferIndex((offerIndex - 1 + OFFERS.length) % OFFERS.length);
 
   return (
     <div className="w-full">
@@ -14,7 +18,7 @@ const Home: React.FC = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0" 
-          style={{ backgroundImage: 'url("https://picsum.photos/1920/1080?random=100")' }}
+          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80")' }}
         >
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
@@ -26,7 +30,7 @@ const Home: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-brand-gold text-lg md:text-xl uppercase tracking-[0.2em] font-bold mb-4"
           >
-            Taste the Tradition
+            Raajeshwariy SeaFood Restaurant
           </motion.p>
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
@@ -34,7 +38,7 @@ const Home: React.FC = () => {
             transition={{ delay: 0.4 }}
             className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight"
           >
-            Experience Authentic <br /> Flavors
+            Fresh Catch. Coastal Spice. <br /> Proudly Tamil.
           </motion.h1>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -58,6 +62,8 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+
+
       {/* Highlights */}
       <section className="py-20 bg-brand-cream">
         <div className="container mx-auto px-4">
@@ -66,22 +72,22 @@ const Home: React.FC = () => {
               <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Leaf className="text-brand-gold" size={32} />
               </div>
-              <h3 className="font-serif text-2xl font-bold mb-4">Fresh Ingredients</h3>
-              <p className="text-gray-600">We source our produce from local organic farms to ensure the highest quality and freshness in every bite.</p>
+              <h3 className="font-serif text-2xl font-bold mb-4">Daily Catch</h3>
+              <p className="text-gray-600">Line-caught seer, prawns, and crab brought in from the Coromandel coast every morning.</p>
             </div>
             <div className="text-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Award className="text-brand-gold" size={32} />
               </div>
-              <h3 className="font-serif text-2xl font-bold mb-4">Master Chefs</h3>
-              <p className="text-gray-600">Our culinary team brings years of experience from top Michelin-starred restaurants around the world.</p>
+              <h3 className="font-serif text-2xl font-bold mb-4">Heirloom Recipes</h3>
+              <p className="text-gray-600">Traditional Tamil seafood gravies and grills, perfected by Chef Raajeshwariy.</p>
             </div>
             <div className="text-center p-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="text-brand-gold" size={32} />
               </div>
-              <h3 className="font-serif text-2xl font-bold mb-4">Family Heritage</h3>
-              <p className="text-gray-600">Established in 1995, Savoria remains a family-owned establishment dedicated to authentic hospitality.</p>
+              <h3 className="font-serif text-2xl font-bold mb-4">Family-Owned</h3>
+              <p className="text-gray-600">Welcoming hospitality from a Chennai family-run kitchen—no frills, just honest coastal food.</p>
             </div>
           </div>
         </div>
@@ -92,7 +98,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Signatures</span>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold mt-2 text-brand-dark">Chef's Selection</h2>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold mt-2 text-brand-dark">From the Bay to Your Plate</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -116,20 +122,20 @@ const Home: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
               <img 
-                src="https://picsum.photos/600/600?random=101" 
-                alt="Special Dish" 
+                src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80" 
+                alt="Seafood Feast" 
                 className="rounded-lg shadow-2xl border-4 border-brand-gold/30"
               />
             </div>
             <div className="flex-1 text-white">
-              <span className="text-brand-gold font-bold uppercase tracking-widest">Limited Time Offer</span>
-              <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">Summer Tasting Menu</h2>
+              <span className="text-brand-gold font-bold uppercase tracking-widest">Seasonal Feast</span>
+              <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">Bay Breeze Tasting</h2>
               <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                Experience a 5-course journey through the flavors of the season. Featuring fresh seafood, garden vegetables, and refreshing desserts paired with our sommelier's choice of wines.
+                A 5-course journey of seer fish, king prawns, and coconut-rich gravies, paired with fragrant appams and pickled shallots.
               </p>
               <div className="flex items-center gap-4 mb-8">
-                <span className="text-3xl font-serif text-brand-gold">$85</span>
-                <span className="text-gray-400">per person / w wine pairing +$45</span>
+                <span className="text-3xl font-serif text-brand-gold">$78</span>
+                <span className="text-gray-400">per person / mocktail pairing +$18</span>
               </div>
               <NavLink to="/reservations" className="bg-white text-brand-dark px-8 py-3 rounded font-bold uppercase hover:bg-brand-gold hover:text-white transition-colors">
                 Reserve Now
@@ -144,7 +150,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-16">
             <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Testimonials</span>
-            <h2 className="font-serif text-4xl font-bold mt-2 text-brand-dark">What Our Guests Say</h2>
+            <h2 className="font-serif text-4xl font-bold mt-2 text-brand-dark">Coastal Stories</h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

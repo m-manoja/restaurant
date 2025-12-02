@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
         <div className="text-center mb-12">
           <h1 className="font-serif text-5xl font-bold text-brand-dark mb-4">Our Gallery</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A visual journey through our culinary creations and atmosphere.
+            The aroma of coconut, the glow of brass lamps, and the sparkle of the sea on every plate.
           </p>
         </div>
 

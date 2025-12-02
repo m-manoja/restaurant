@@ -28,6 +28,17 @@ export interface TeamMember {
   image: string;
 }
 
+export interface Offer {
+  id: number;
+  title: string;
+  description: string;
+  price: string;
+  tag?: string;
+  details?: string[];
+  image: string;
+  cta: string;
+}
+
 export interface GalleryItem {
   id: number;
   category: 'Food' | 'Interior' | 'Events' | 'Chef';

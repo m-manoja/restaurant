@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
             <Utensils size={20} className="text-white" />
           </div>
           <span className={showSolidNav ? 'text-brand-dark' : 'text-white md:text-white text-brand-dark drop-shadow-md'}>
-            Savoria
+            Raajeshwariy
           </span>
         </NavLink>
 

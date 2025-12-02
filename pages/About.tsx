@@ -15,8 +15,8 @@ const About: React.FC = () => {
         <div className="absolute inset-0 bg-black/40 z-0"></div>
         
         <div className="relative z-10 text-center text-white px-4">
-            <span className="text-brand-gold font-bold uppercase tracking-[0.2em] text-sm block mb-4 animate-fade-in-up">Since 1995</span>
-            <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">Our Story</h1>
+            <span className="text-brand-gold font-bold uppercase tracking-[0.2em] text-sm block mb-4 animate-fade-in-up">Since 1989</span>
+            <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">Our Coastal Story</h1>
              <div className="w-24 h-1 bg-brand-gold mx-auto rounded-full"></div>
         </div>
       </div>
@@ -32,8 +32,8 @@ const About: React.FC = () => {
             <div className="relative w-full max-w-sm">
                 <div className="relative z-10 rounded-lg overflow-hidden shadow-xl aspect-[3/4]">
                   <img 
-                    src="https://picsum.photos/600/800?random=200" 
-                    alt="Restaurant Interior" 
+                    src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80" 
+                    alt="Seafood dining room" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -45,28 +45,28 @@ const About: React.FC = () => {
 
           {/* Text Content */}
           <div className="w-full md:w-7/12">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-brand-dark mb-4">A Tradition of Excellence</h2>
-            <h3 className="font-serif text-xl text-brand-gold italic mb-6">"Food is not just eating energy. It's an experience."</h3>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-brand-dark mb-4">Tamil Coast, On a Plate</h2>
+            <h3 className="font-serif text-xl text-brand-gold italic mb-6">"The sea decides the menu; we just honor the catch."</h3>
             
             <div className="space-y-5 text-gray-600 leading-relaxed text-sm md:text-base">
               <p>
-                Founded in 1995, Savoria started as a humble family kitchen with a dream to bring authentic Mediterranean flavors to the heart of the city. What began as a small bistro has evolved into a premier dining destination, yet our core values remain unchanged.
+                Raajeshwariy SeaFood Restaurant began as a beachside mess in Nagapattinam, serving the morning catch to dock workers and families. Today in the city, we still cook the same heirloom recipes, slow-toasting spices and finishing every dish with the aroma of coconut and curry leaves.
               </p>
               <p>
-                We believe that food is more than just sustenance; it's a way to bring people together. Every dish that leaves our kitchen is a testament to our commitment to quality, sourcing only the freshest local organic ingredients.
+                Our kitchen waits for the boats to come in before finalizing the menu. From crab pepper roast to tamarind-rich karuvadu curry, we celebrate the depth of Tamil coastal cuisine with uncompromising freshness.
               </p>
               <p>
-                Our philosophy is simple: respect the ingredients, honor the tradition, and welcome every guest like family.
+                The philosophy is simple: respect the sea, honor the spice, and welcome every guest like family.
               </p>
             </div>
 
             <div className="mt-8 pt-6 border-t border-gray-100 flex items-center gap-4">
                 <div className="flex-shrink-0">
-                    <img src="https://picsum.photos/60/60?random=99" alt="Founder" className="w-14 h-14 rounded-full object-cover border-2 border-brand-gold p-0.5" />
+                    <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=120&q=80" alt="Founder" className="w-14 h-14 rounded-full object-cover border-2 border-brand-gold p-0.5" />
                 </div>
                 <div>
-                    <p className="font-serif font-bold text-lg text-brand-dark">Giuseppe Moretti</p>
-                    <p className="text-xs text-brand-gold uppercase tracking-wide font-bold">Founder</p>
+                    <p className="font-serif font-bold text-lg text-brand-dark">Raajeshwari Murugan</p>
+                    <p className="text-xs text-brand-gold uppercase tracking-wide font-bold">Founder &amp; Chef</p>
                 </div>
             </div>
           </div>
@@ -137,9 +137,9 @@ const About: React.FC = () => {
                     </div>
                     <div>
                         <h3 className="font-serif text-lg font-bold mb-1">Opening Hours</h3>
-                        <p className="text-gray-400 text-sm">Mon-Thu: 11am - 10pm</p>
-                        <p className="text-gray-400 text-sm">Fri-Sat: 11am - 11pm</p>
-                        <p className="text-gray-400 text-sm">Sun: 10am - 9:30pm</p>
+                        <p className="text-gray-400 text-sm">Mon-Thu: 12pm - 10pm</p>
+                        <p className="text-gray-400 text-sm">Fri-Sat: 12pm - 11pm</p>
+                        <p className="text-gray-400 text-sm">Sun: 12pm - 9:30pm</p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
@@ -148,8 +148,8 @@ const About: React.FC = () => {
                     </div>
                     <div>
                         <h3 className="font-serif text-lg font-bold mb-1">Location</h3>
-                        <p className="text-gray-400 text-sm">123 Culinary Avenue</p>
-                        <p className="text-gray-400 text-sm">Food District, NY 10012</p>
+                        <p className="text-gray-400 text-sm">ECR Service Lane</p>
+                        <p className="text-gray-400 text-sm">Neelankarai, Chennai</p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
